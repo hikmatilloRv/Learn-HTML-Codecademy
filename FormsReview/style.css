@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(57, 169, 219);
+    font-family: Rubik, Arial;
+  }
+  
+  form {
+    text-align: center;
+    line-height: 30px;
+    height: 80%;
+    overflow: auto;
+  }
+  
+  form hr {
+    width: 35%;
+  }
+  
+  h1 {
+    text-align: center;
+    background-color: purple;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  #burger {
+    max-height: 30%;
+  }
+  
+  #overlay {
+    width: 80%;
+    margin: 3% auto;
+    height: 95vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 40px;
+  }
+  
+  #logo {
+    height: 100px;
+    display: block;
+    margin: auto;
+  }
+  
+  
+  .toppings label, .cheesy label {
+    margin-right: 25px;
+  }
+  
+  .submission {
+    margin-bottom: 40px;
+  }
+  
+  .submission input {
+    width: 70%;
+    background-color: yellow;
+    color: red;
+    font-size: 1.3rem;
+    font-weight: 700;
+    box-shadow: 2px 3px  4px red;
+  }
