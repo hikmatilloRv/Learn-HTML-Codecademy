@@ -1,3 +1,104 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    background-color:blanchedalmond;
+    scroll-behavior: smooth;
+}
+
+header h1 {
+    background-color: rgb(179, 37, 167);
+    padding: 5px;
+    margin: 0;
+    color:rgb(255, 255, 255);
+
+}
+
+header {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    background: rgb(34,195,107);
+    background: 
+        linear-gradient(10deg, 
+        rgba(34,195,107,0.7596288515406162) 24%,
+        rgba(253,187,45,0.9641106442577031) 100%);
+    padding: 10px;
+    margin: 0;
+    font-family: monospace;
+    font-size: 1.6rem;
+   
+    
+
+}
+
+li {
+    list-style: none;
+}
+
+
+
+li a {
+    text-decoration: none;
+    color: aliceblue;
+    border-bottom: 1px transparent;
+    transition: all .2s ease;
+}
+
+li a:hover {
+    border-bottom: 1px solid blueviolet;
+}
+
+section {
+    padding-top: 10px;
+    margin: 20px 0;
+    background: rgb(34,121,195);
+    background: 
+        linear-gradient(10deg, 
+         rgba(34,121,195,0.7596288515406162) 24%,
+         rgba(244,45,253,0.9977240896358543) 100%);
+}
+
+section h2 {
+    text-align: center;
+    font-family: monospace;
+    line-height: 10px;
+    margin-bottom: 20px;
+    
+    
+}
+
+article p {
+    text-align: center;
+    color: bisque;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 video {
     width: 450px;
     height: 300px;
