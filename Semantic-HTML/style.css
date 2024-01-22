@@ -110,7 +110,7 @@ figure img {
 
 footer {
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
     align-items:end;
     flex-direction: row;
     position: relative;
@@ -120,9 +120,26 @@ footer {
 }
 
 footer p {
-    position: absolute;
-
+    border: 2px solid red;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+    line-height: 15px;
+    font-size:larger;
+    font-weight: 500;
+    font-family: monospace;
+    transition: all 0.4s ease;
 }
+
+p a {
+    text-decoration: none;
+}
+
+footer p:hover {
+    box-shadow: -5px -10px 3px rgb(0, 91, 32);
+    cursor: pointer;
+}
+
 
 
 
