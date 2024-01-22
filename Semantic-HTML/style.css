@@ -1,7 +1,7 @@
 body {
     box-sizing: border-box;
     margin: 0;
-    background-color:blanchedalmond;
+    background-color:rgb(236, 199, 145);
     scroll-behavior: smooth;
 }
 
@@ -74,6 +74,54 @@ article p {
     text-align: center;
     color: bisque;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+aside p {
+    text-align: center;
+    color:yellow;
+    font-family: monospace;
+    width: 50%;
+    margin: 0 auto;
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 1.2rem;
+}
+
+
+figure {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 1px solid transparent;
+    background-color:tan;
+}
+
+figcaption {
+    font-weight: 600;
+    line-height: 10px;
+    font-size: 1.1rem;
+    padding: 5px;
+    background-color: hotpink;
+}
+
+figure img {
+    margin-top: 5px; 
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    flex-direction: row;
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    background-color: yellowgreen;
+}
+
+footer p {
+    position: absolute;
+
 }
 
 
