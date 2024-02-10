@@ -9,6 +9,12 @@ body {
     padding: 0;
   }
   
+  h1,
+  h2 {
+    font-family: Georgia;
+    
+  }
+
   h1 {
     color: #FFF;
     font-size: 2em;
